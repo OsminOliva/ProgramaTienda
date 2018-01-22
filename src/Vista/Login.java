@@ -116,7 +116,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jLabelicon, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 210, -1));
 
         JLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/wallpaper red.jpg"))); // NOI18N
-        getContentPane().add(JLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 420));
+        getContentPane().add(JLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 420));
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 92, 150, 10));
 
         pack();
