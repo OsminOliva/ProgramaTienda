@@ -38,6 +38,7 @@ public class FrmLogin extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         lblLeft = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -50,25 +51,25 @@ public class FrmLogin extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setForeground(new java.awt.Color(102, 102, 102));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel1.add(sprtrUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, 220, 10));
-        jPanel1.add(sprtrPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 220, 10));
+        jPanel1.add(sprtrUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, 220, 10));
+        jPanel1.add(sprtrPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, 220, 10));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-person-60_1.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-user-60.png"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-user-account-60.png"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-user-account-60_1.png"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, -1, -1));
 
         txtUser.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         txtUser.setBorder(null);
-        jPanel1.add(txtUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 220, 50));
+        jPanel1.add(txtUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 220, 50));
 
         txtPassword.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtPassword.setBorder(null);
-        jPanel1.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, 220, 50));
+        jPanel1.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, 220, 50));
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/login.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ingresar.png"))); // NOI18N
         jButton1.setBorder(null);
         jButton1.setBorderPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -76,17 +77,20 @@ public class FrmLogin extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 380, 170, 60));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 430, 190, 60));
 
         jComboBox1.setForeground(new java.awt.Color(102, 102, 102));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione Tipo de Usuario", " " }));
         jComboBox1.setBorder(null);
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 300, 220, 40));
+        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 340, 220, 40));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-password-60_1.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, -1, -1));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-lock-60.png"))); // NOI18N
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
 
-        pnPrincipal.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 40, 400, 490));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/E(4).png"))); // NOI18N
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, 240, 150));
+
+        pnPrincipal.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 20, 400, 510));
 
         lblLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/solid-grey-wallpaper-47193-48710-hd-wallpapers.jpg"))); // NOI18N
         pnPrincipal.add(lblLeft, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 570));
@@ -141,6 +145,7 @@ public class FrmLogin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblLeft;
     private javax.swing.JPanel pnPrincipal;
