@@ -36,9 +36,9 @@ public class FrmLogin extends javax.swing.JFrame {
         txtUser = new javax.swing.JTextField();
         txtPassword = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        cmbxTipoUsuario = new javax.swing.JComboBox<>();
+        lblCandado = new javax.swing.JLabel();
+        lblLogo = new javax.swing.JLabel();
         lblLeft = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -77,25 +77,24 @@ public class FrmLogin extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 430, 190, 60));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 420, 190, 60));
 
-        jComboBox1.setForeground(new java.awt.Color(102, 102, 102));
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione Tipo de Usuario", " " }));
-        jComboBox1.setBorder(null);
-        jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 340, 220, 40));
+        cmbxTipoUsuario.setForeground(new java.awt.Color(102, 102, 102));
+        cmbxTipoUsuario.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione Tipo de Usuario", " " }));
+        jPanel1.add(cmbxTipoUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 340, 220, 40));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-lock-60.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
+        lblCandado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-lock-60.png"))); // NOI18N
+        jPanel1.add(lblCandado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/E(4).png"))); // NOI18N
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, 240, 150));
+        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/E(4).png"))); // NOI18N
+        jPanel1.add(lblLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 240, 150));
 
-        pnPrincipal.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 20, 400, 510));
+        pnPrincipal.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 380, 510));
 
         lblLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/solid-grey-wallpaper-47193-48710-hd-wallpapers.jpg"))); // NOI18N
-        pnPrincipal.add(lblLeft, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 570));
+        pnPrincipal.add(lblLeft, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 530));
 
-        getContentPane().add(pnPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1039, 721));
+        getContentPane().add(pnPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -140,14 +139,14 @@ public class FrmLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JComboBox<String> cmbxTipoUsuario;
     private javax.swing.JButton jButton1;
-    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lblCandado;
     private javax.swing.JLabel lblLeft;
+    private javax.swing.JLabel lblLogo;
     private javax.swing.JPanel pnPrincipal;
     private javax.swing.JSeparator sprtrPassword;
     private javax.swing.JSeparator sprtrUser;

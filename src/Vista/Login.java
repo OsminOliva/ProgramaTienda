@@ -31,11 +31,12 @@ public class Login extends javax.swing.JFrame {
         ImagenFondo = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jLabelUsuario = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
         jPassword = new javax.swing.JPasswordField();
         jLabelContraseña = new javax.swing.JLabel();
         jButtonEntrar = new javax.swing.JButton();
+        jSeparator2 = new javax.swing.JSeparator();
         jButtonSalir = new javax.swing.JButton();
-        jSeparator1 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
         jComboBox1 = new javax.swing.JComboBox<>();
         jTextUsuario = new javax.swing.JTextField();
@@ -43,7 +44,6 @@ public class Login extends javax.swing.JFrame {
         jLabelbienvenido = new javax.swing.JLabel();
         jLabelicon = new javax.swing.JLabel();
         JLabelFondo = new javax.swing.JLabel();
-        jSeparator2 = new javax.swing.JSeparator();
 
         ImagenFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/depositphotos_3004046-Supermarket.jpg"))); // NOI18N
 
@@ -57,6 +57,9 @@ public class Login extends javax.swing.JFrame {
         jLabelUsuario.setForeground(new java.awt.Color(51, 51, 51));
         jLabelUsuario.setText("Usuario ");
         getContentPane().add(jLabelUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 50, 180, -1));
+
+        jSeparator1.setBackground(new java.awt.Color(102, 102, 102));
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, 190, 10));
 
         jPassword.setBackground(new java.awt.Color(0, 0, 0));
         jPassword.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -77,6 +80,7 @@ public class Login extends javax.swing.JFrame {
         jButtonEntrar.setBackground(new java.awt.Color(51, 51, 51));
         jButtonEntrar.setText("Entrar");
         getContentPane().add(jButtonEntrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 350, 80, 30));
+        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, 180, 10));
 
         jButtonSalir.setBackground(new java.awt.Color(51, 51, 51));
         jButtonSalir.setText("Salir");
@@ -86,9 +90,6 @@ public class Login extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 350, 80, -1));
-
-        jSeparator1.setBackground(new java.awt.Color(102, 102, 102));
-        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, 190, 10));
 
         jSeparator3.setBackground(new java.awt.Color(102, 102, 102));
         getContentPane().add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 110, 190, 10));
@@ -116,8 +117,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jLabelicon, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 210, -1));
 
         JLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/wallpaper red.jpg"))); // NOI18N
-        getContentPane().add(JLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 420));
-        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 92, 150, 10));
+        getContentPane().add(JLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 420));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
